@@ -15,9 +15,13 @@ h4{	color: black
 		background-size: 250%
 	}
 	body{
-		width: 100%;
+		width: 99%;
 		background: url("../Images/moblBG.jpg");
 		color: white;
+		margin: 2px;
+		border: 1px groove white;
+		border-radius: 5px;
+		padding: 3px;
 	}
 	.homecontents{
 		font-size: 15px;
@@ -32,11 +36,13 @@ h4{	color: black
 	}
 
 	#ug{
+		
 		background-color: white;
 		opacity: 0.9;
 		padding: 10px;
 	}
 	#contact{
+
 		background-color: white;
 		opacity: 0.9;
 		padding: 10px;
@@ -64,7 +70,7 @@ h4{	color: black
 		background: url("../Images/homebg.jpg");
 		background-size: 100%;
 		margin: 10px;
-		border: 2px groove white;
+		border: 2px solid white;
 		border-radius: 10px;
 		padding: 10px;
 		}
@@ -89,6 +95,7 @@ h4{	color: black
 		text-align: left;
 	}
 	#ug{
+		font-size: 20px;
 		background-color: white;
 		opacity: 0.9;
 		padding: 10px;
@@ -106,6 +113,7 @@ h4{	color: black
 	}
 
 	#contact{
+		font-size: 20px;
 		background-color: white;
 		opacity: 0.9;
 		padding: 10px;
