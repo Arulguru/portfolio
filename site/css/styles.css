@@ -1,6 +1,4 @@
-body{
-	width: 100%;
-}
+
 
 h4{	color: black
 	font-weight: bold;
@@ -8,9 +6,59 @@ h4{	color: black
 	border-radius: 5px;
 }
 
+@media(max-width: 766px){
+	.jumbotron{
+	
+		color: black;
+		position: relative;
+		background-image:  url("../Images/jumboImg.jpg");
+		background-size: 250%
+	}
+	body{
+		width: 100%;
+		background: url("../Images/moblBG.jpg");
+		color: white;
+	}
+	.homecontents{
+		font-size: 15px;
+		font-weight: bold;
+		opacity: 0.8;
+		box-sizing: border-box;
+		padding: 10px;
+		border: 1px solid white;
+		margin: 20px;
+		opacity: 0.7;
+		background-color: black;
+	}
+
+	#ug{
+		background-color: white;
+		opacity: 0.9;
+		padding: 10px;
+	}
+	#contact{
+		background-color: white;
+		opacity: 0.9;
+		padding: 10px;
+	}
+
+
+	#greet{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15px;
+	}
+
+}
+
 
 @media(min-width:1370px ){
-		body{
+	#greet{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12px;
+	}
+	body{
 		background-blend-mode: lighten;
 		color: white;
 		background: url("../Images/homebg.jpg");
@@ -116,6 +164,11 @@ h4{	color: black
 		opacity: 0.9;
 		padding: 10px;
 	}
+	#greet{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12px;
+	}
 
 }
 
@@ -131,11 +184,7 @@ a:hover,a:active{
 	background-color: #888e94;
 }
 
-#greet{
-	font-style: italic;
-	font-weight: bold;
-	font-size: 12px;
-}
+
 
 th, td, table{
 	
