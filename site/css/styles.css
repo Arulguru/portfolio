@@ -1,4 +1,6 @@
-
+body{
+	width: 100%;
+}
 
 h4{	color: black
 	font-weight: bold;
@@ -46,13 +48,13 @@ h4{	color: black
 	.homecontents{
 		font-weight: bold;
 		font-size: 20px;
-	opacity: 0.8;
-	box-sizing: border-box;
-	padding: 10px;
-	border: 1px solid white;
-	margin: 20px;
-	opacity: 0.7;
-	background-color: black;
+		opacity: 0.8;
+		box-sizing: border-box;
+		padding: 10px;
+		border: 1px solid white;
+		margin: 20px;
+		opacity: 0.7;
+		background-color: black;
 	}
 
 	#contact{
@@ -65,7 +67,7 @@ h4{	color: black
 
 
 @media(max-width: 1369px) and (min-width: 767px){
-		body{
+	body{
 		background-blend-mode: lighten;
 		color: white;
 		background: url("../Images/homebg.jpg");
@@ -74,7 +76,7 @@ h4{	color: black
 		border: 2px groove white;
 		border-radius: 10px;
 		padding: 10px;
-		}
+	}
 	.jumbotron{
 		color: black;
 		position: relative;
@@ -101,13 +103,13 @@ h4{	color: black
 		
 	}
 	.homecontents{
-	opacity: 0.7;
-	box-sizing: border-box;
-	border-radius: 5px;
-	padding: 10px;
-	border: 1px solid white;
-	margin: 10px;
-	background-color: black;
+		opacity: 0.7;
+		box-sizing: border-box;
+		border-radius: 5px;
+		padding: 10px;
+		border: 1px solid white;
+		margin: 10px;
+		background-color: black;
 	}
 	#contact{
 		background-color: white;
