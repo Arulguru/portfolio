@@ -1,3 +1,19 @@
+$(".homecontents").on("mouseenter",function(){
+	$(this).animate({'font-size':'18px','border':'4px solid #5c5c5c '});
+	$(this).filter("h4").css({'background-color':'#5c5c5c','font-weight':'bold'})
+	
+})
+$(".homecontents").on("mouseleave",function() {
+	$(this).css({'font-size':'16px','border':'1px solid white'});
+})
+
+
+
+
+
+
+
+
 $("#BlockchainBasics").click(function(){
 	$("#certificateBox").html("<img src='Images/BlockchainBasics.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
