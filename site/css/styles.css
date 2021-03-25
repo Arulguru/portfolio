@@ -72,7 +72,9 @@ h4{	color: black
 	}
 	#project img{
 		margin: 5px;
-		padding: 2px
+		padding: 2px;
+		width: 200px;
+
 	}
 
 }
