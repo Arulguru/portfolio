@@ -6,6 +6,8 @@ h4{	color: black
 	border-radius: 5px;
 }
 
+
+/*MOBILE*/
 @media(max-width: 766px){
 	.jumbotron{
 	
@@ -50,14 +52,33 @@ h4{	color: black
 
 
 	#greet{
-	font-style: italic;
-	font-weight: bold;
-	font-size: 15px;
+		font-style: italic;
+		font-weight: bold;
+		font-size: 15px;
+	}
+	#BgssIp{
+		border: 2px solid white;
+		padding: 5px;
+		background-color: black;
+		opacity: 0.8;
+		text-align: justify;
+	}
+	#IbecIp{
+		border: 1px solid white;
+		padding: 2px;
+		background-color: black;
+		opacity: 0.8;
+		text-align: justify;
+	}
+	#project img{
+		margin: 5px;
+		padding: 2px
 	}
 
 }
 
 
+/*LARGE*/
 @media(min-width:1370px ){
 	#greet{
 	font-style: italic;
@@ -120,10 +141,31 @@ h4{	color: black
 		opacity: 0.9;
 		padding: 10px;
 	}
+	#IbecIp{
+		border: 2px solid white;
+		padding: 5px;
+		background-color: black;
+		opacity: 0.8;
+		font-size: 20px;
+		text-align: justify;
+	}
+	#BgssIp{
+		border: 2px solid white;
+		padding: 5px;
+		background-color: black;
+		opacity: 0.8;
+		font-size: 20px;
+		text-align: justify;
+	}
+	#project img{
+		margin: 10px;
+		padding: 5px
+	}
 
 }
 
 
+/*MED*/
 @media(max-width: 1369px) and (min-width: 767px){
 	body{
 		background-blend-mode: lighten;
@@ -175,9 +217,27 @@ h4{	color: black
 		padding: 10px;
 	}
 	#greet{
-	font-style: italic;
-	font-weight: bold;
-	font-size: 12px;
+		font-style: italic;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	#BgssIp{
+		border: 2px solid white;
+		padding: 5px;
+		background-color: black;
+		opacity: 0.8;
+		text-align: justify;
+	}
+	#IbecIp{
+		border: 2px solid white;
+		padding: 5px;
+		background-color: black;
+		opacity: 0.8;
+		text-align: justify;
+	}
+	#project img{
+		margin: 10px;
+		padding: 5px
 	}
 
 }

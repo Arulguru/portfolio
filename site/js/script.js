@@ -1,6 +1,6 @@
 $(".homecontents").on("mouseenter",function(){
 	$(this).animate({'font-size':'18px','border':'4px solid #5c5c5c '});
-	$(this).filter("h4").css({'background-color':'#5c5c5c','font-weight':'bold'})
+	$(this).filter("h4").css({'background-color':'#5c5c5c','font-weight':'bold'},fast)
 	
 })
 $(".homecontents").on("mouseleave",function() {
@@ -45,3 +45,14 @@ $("#c").click(function(){
 $("#dsa").click(function(){
 	$("#certificateBox").html("<img src='Images/ds.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
+
+
+
+
+$("#ibec").click(function(){
+	$("#project").load("/Ibec.html")
+});
+
+$("#bgss").click(function(){
+	$("#project").load("/Bgss.html")
+});
