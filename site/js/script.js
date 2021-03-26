@@ -51,7 +51,7 @@ $("#dsa").click(function(){
 
 $("#ibec").click(function(){
 	$("#project").load("/portfolio/site/Ibec.html")
-	$("#project .").css({"width":"60%"})
+	$("img").css({"width":"60%"})
 });
 
 $("#bgss").click(function(){
