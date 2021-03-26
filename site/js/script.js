@@ -50,10 +50,10 @@ $("#dsa").click(function(){
 
 
 $("#ibec").click(function(){
-	$("#project").load("/Ibec.html")
+	$("#project").load("/portfolio/Ibec.html")
 	$("#project .").css({"width":"60%"})
 });
 
 $("#bgss").click(function(){
-	$("#project").load("/Bgss.html")
+	$("#project").load("/portfolio/Bgss.html")
 });
