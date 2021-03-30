@@ -1,49 +1,51 @@
-$(".homecontents").on("mouseenter",function(){
-	$(this).animate({'font-size':'18px','border':'4px solid #5c5c5c '});
-	$(this).filter("h4").css({'background-color':'#5c5c5c','font-weight':'bold'},fast)
+$(".homecontents").hover(function(){
+	$(this).animate({'font-size':'18px','border':'4px solid #5c5c5c ','font-weight':'bold'});
+	$(this).filter("h4").css({'background-color':'#5c5c5c','font-weight':'bold'});
+	console.log(this);
 	
 })
-$(".homecontents").on("mouseleave",function() {
-	$(this).css({'font-size':'16px','border':'1px solid white'});
+
+
+
+
+
+
+$("#bchSpe").click(function(){
+	$("#certificateBox").html("<img src='Images/Certifications/blockchainSpecialization.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
-
-
-
-
-
-
-
-
 $("#BlockchainBasics").click(function(){
-	$("#certificateBox").html("<img src='Images/BlockchainBasics.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/BlockchainBasics.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 $("#smct").click(function(){
-	$("#certificateBox").html("<img src='Images/smartContracts.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/smartContracts.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 $("#dapp").click(function(){
-	$("#certificateBox").html("<img src='Images/DApps.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/DApps.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+})
+$("#bchPlatforms").click(function(){
+	$("#certificateBox").html("<img src='Images/Certifications/blockchainPlatform.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 $("#js").click(function(){
-	$("#certificateBox").html("<img src='Images/introToJS.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/introToJS.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 $("#fullstack").click(function(){
-	$("#certificateBox").html("<img src='Images/html,css,js.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/html,css,js.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 
 $("#py").click(function(){
-	$("#certificateBox").html("<img src='Images/SKILLRACK_PY.png' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/SKILLRACK_PY.png' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 $("#java").click(function(){
-	$("#certificateBox").html("<img src='Images/SKILLRACK_JAVA.png' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/SKILLRACK_JAVA.png' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 $("#sql").click(function(){
-	$("#certificateBox").html("<img src='Images/sql.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/sql.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 $("#c").click(function(){
-	$("#certificateBox").html("<img src='Images/SKILLRACK_C.png' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/SKILLRACK_C.png' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 $("#dsa").click(function(){
-	$("#certificateBox").html("<img src='Images/ds.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
+	$("#certificateBox").html("<img src='Images/Certifications/ds.jpg' style='width: 100%; border: 1px solid white; padding: 5px'></img>");
 })
 
 
