@@ -96,8 +96,9 @@ h5{	text-indent: 10px;
 	}
 	#caro img{
 		width: 300px;
-		
-
+	}
+	#circ{
+		height: 300px;
 	}
 
 
@@ -205,7 +206,9 @@ h5{	text-indent: 10px;
 	#caro img{
 		width: 820px;
 		
-
+	}
+	#circ{
+		height: 820px;
 	}
 
 
@@ -305,6 +308,9 @@ h5{	text-indent: 10px;
 		width: 600px;
 		
 	}
+	#circ{
+		height: 600px;
+	}
 
 
 }
@@ -329,5 +335,14 @@ th, td, table{
 	border:1px solid white;
 	border-collapse: collapse;
 	text-align: left;
+}
+
+footer{
+	margin-top: 10px;
+	border: 1px solid white;
+	padding: 10px;
+	background-color: black;
+	opacity: 0.8;
+	text-align: center;
 }
 
